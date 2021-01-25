@@ -23,16 +23,16 @@ image = Image.open('logo.jpg')
 
 st.image(image, width = 500)
 
-st.title('Crypto Price App')
+st.title('Crypto Prediction AI BOT')
 st.markdown("""
-This app retrieves cryptocurrency prices for the top 100 cryptocurrency from the **CoinMarketCap**!
+This app retrieves cryptocurrency prices and gives 7 days ahead prdiction for the top 100 cryptocurrency from the **CoinMarketCap**!
 
 """)
 #---------------------------------#
 # About
 expander_bar = st.beta_expander("About")
 expander_bar.markdown("""
-* **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn, BeautifulSoup, requests, json, time
+#* **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn, BeautifulSoup, requests, json, time
 * **Data source:** [CoinMarketCap](http://coinmarketcap.com).
 * **Credit:** Cyptocurrency AI written by Osazee and Precious""")
 
